@@ -1,0 +1,101 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    padding: 0;
+}
+
+body{
+    background-attachment: scroll;
+    font-size: 1rem;
+    min-height: 100vh;
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+}
+
+.content{
+    padding: 30px;
+    background-color: antiquewhite;
+    height: 35%;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    font-weight: 500;
+    width: 99%;
+    border-radius: 5px;
+    margin: 20px 0 12px 0;
+}
+
+.container{
+    background-color: honeydew;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0 , 0, 0.3);
+    width: 100%;  
+}
+
+fieldset{
+    border:none;
+    display: flex;
+    gap: 2px;
+}
+
+.label-1,
+.label-2,
+.label-3{
+    display: flex;
+    flex: 1;
+}
+
+ .userDetails{
+    justify-content: center;
+    align-items: center;
+    justify-items: center; 
+    width: 100%;
+ }
+
+form .userInput{
+    display: flex; 
+}
+
+input {
+    width: 200px;
+    border-radius: 6px;
+    height: 35px;
+}
+
+.userDetails .userInput{
+    display: block;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+
+.btns{
+    background-color: honeydew;
+    padding: 5px;
+}
+
+#button{
+    background-color: chartreuse;
+    border-radius: 4px;
+    height: 40px;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 300px;
+    width: fit-content;
+    font-weight: bold;
+    padding: 10px 40px;
+}
+
+.warn {
+    color: red;
+}
+
+.notice{
+    color:red;
+}
+
+a{
+    color:green;
+}
